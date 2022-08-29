@@ -14,6 +14,7 @@ import DestructuringClass from './Component/DestructuringClass';
 import EventBind from './Component/EventBind';
 import Parent from './Component/Parent';
 import ListRendering from './Component/ListRendering';
+import ConditionalRendering from './Component/ConditionalRendering';
 function App() {
   return (
     <div className="App">
@@ -48,7 +49,9 @@ function App() {
 
       {/* <Parent /> */}
 
-      <ListRendering />
+      {/* <ListRendering /> */}
+
+      <ConditionalRendering />
     </div>
   );
 }
