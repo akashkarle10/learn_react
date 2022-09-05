@@ -15,9 +15,16 @@ import EventBind from './Component/EventBind';
 import Parent from './Component/Parent';
 import ListRendering from './Component/ListRendering';
 import ConditionalRendering from './Component/ConditionalRendering';
+import Stylesheet from './Component/Stylesheet';
+import InlineStyle from './Component/InlineStyle';
+import './simple.css';
+import styles from './style.module.css';
+import Table from './Component/Table';
 function App() {
   return (
     <div className="App">
+      {/* <h1 className='error'>Error</h1> */}
+      {/* <h1 className={styles.success}>Success</h1> */}
       {/* <Greet /> */}
 
       {/* <ClassComponent /> */}
@@ -51,7 +58,13 @@ function App() {
 
       {/* <ListRendering /> */}
 
-      <ConditionalRendering />
+      {/* <ConditionalRendering /> */}
+
+      {/* <Stylesheet isPrimary={true}/> */}
+
+      {/* <InlineStyle /> */}
+
+      <Table/>
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.colour{
+    color: blueviolet;
+}
+
+table{
+    width: 100%;
+}
+td,th{
+    border: 1 px solid black;
+}
