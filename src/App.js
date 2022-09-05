@@ -1,30 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
-import Greet from './Component/Greet';
-import ClassComponent from './Component/ClassComponent';
-import NoJSX from './Component/NoJSX';
-import Props from './Component/Props';
-import ClassProps from './Component/ClassProps';
-import State from './Component/State';
-import Counter from './Component/Counter';
-import Destructuring from './Component/Destructuring';
-import FunctionClick from './Component/FunctionClick';
-import ClassClick from './Component/ClassClick';
-import DestructuringClass from './Component/DestructuringClass';
-import EventBind from './Component/EventBind';
-import Parent from './Component/Parent';
-import ListRendering from './Component/ListRendering';
-import ConditionalRendering from './Component/ConditionalRendering';
-import Stylesheet from './Component/Stylesheet';
-import InlineStyle from './Component/InlineStyle';
+import Greet from './Component/1-Functional-Component/Greet';
+import ClassComponent from './Component/2-Class-Component/ClassComponent';
+import NoJSX from './Component/0-Without-JSX/NoJSX';
+import Props from './Component/3-Functional-Props/Props';
+import ClassProps from './Component/4-Class-Props/ClassProps'
+import State from './Component/5-State/State';
+import Counter from './Component/5-State/Counter';
+import Destructuring from './Component/6-Destructuring/Destructuring';
+import FunctionClick from './Component/7-Event-Handling/FunctionClick';
+import ClassClick from './Component/7-Event-Handling/ClassClick';
+import DestructuringClass from './Component/6-Destructuring/DestructuringClass';
+import EventBind from './Component/8-Event-Binding/EventBind';
+import Parent from './Component/9-Method-as-Props/Parent';
+import ConditionalRendering from './Component/10-Conditional-Rendering/ConditionalRendering';
+import ListRendering from './Component/11-List-Rendering/ListRendering';
+import Stylesheet from './Component/12-Style/Stylesheet';
+import InlineStyle from './Component/12-Style/InlineStyle';
 import './simple.css';
 import styles from './style.module.css';
-import Table from './Component/Table';
+
 function App() {
   return (
     <div className="App">
-      {/* <h1 className='error'>Error</h1> */}
-      {/* <h1 className={styles.success}>Success</h1> */}
+
       {/* <Greet /> */}
 
       {/* <ClassComponent /> */}
@@ -38,33 +37,37 @@ function App() {
 
       {/* <ClassProps name='Akash'/> */}
 
-      {/* <State /> */}
+      {/* <State />
 
-      {/* <Counter /> */}
+      <Counter /> */}
 
       {/* <Destructuring name='Akash' sname='Karle'>
       <p>This is Children</p>
-      </Destructuring> */}
+      </Destructuring>
 
-      {/* <DestructuringClass name='Akash' sname='Karle'/> */}
+      <DestructuringClass name='Akash' sname='Karle'/> */}
 
-      {/* <FunctionClick /> */}
+      {/* <FunctionClick />
 
-      {/* <ClassClick /> */}
+      <ClassClick /> */}
 
       {/* <EventBind /> */}
 
       {/* <Parent /> */}
 
+      {/* <ConditionalRendering /> */}
+      
       {/* <ListRendering /> */}
 
-      {/* <ConditionalRendering /> */}
+      {/* <Stylesheet isPrimary={true} /> */}
 
-      {/* <Stylesheet isPrimary={true}/> */}
+      <InlineStyle />
 
-      {/* <InlineStyle /> */}
+      {/* simple css class */}
+      {/* <h1 className='error'>Error</h1> */}
 
-      <Table/>
+      {/* style module class */}
+      {/* <h1 className={styles.success}>Success</h1> */}
     </div>
   );
 }

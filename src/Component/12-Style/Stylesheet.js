@@ -5,6 +5,8 @@ function Stylesheet(props) {
   return (
     <div>
         <h1 className={className}>Hello Akash</h1>
+        <h1 className='error'>Simple CSS class</h1>
+        <h1 className='success'>Simple CSS class</h1>
     </div>
   )
 }
