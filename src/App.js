@@ -19,7 +19,7 @@ import ListRendering from './Component/11-List-Rendering/ListRendering';
 import ReactStyle from './Component/12-Style/ReactStyle';
 import FormHandling from './Component/13-Form-Handling/FormHandling';
 import FragmentDemo from './Component/14-Fragment/FragmentDemo';
-import PureComponents from './Component/15-Pure-Component/PureComponent';
+
 import Constructor from './Component/16-Lifecycle-Method/Constructor';
 import ComponentDidMount from './Component/16-Lifecycle-Method/ComponentDidMount';
 import ComponentDidUpdate from './Component/16-Lifecycle-Method/ComponentDidUpdate';
@@ -30,11 +30,14 @@ import BootStrapButton from './Component/18-Bootstrap/BootStrapButton';
 import BootstrapForm from './Component/18-Bootstrap/BootstrapForm';
 import AllCollapseExample from './Component/18-Bootstrap/AllCollapseExample';
 import TableRendering from './Component/19-Array-Rendering-Bootstrap/TableRendering';
+import ReactPureComponents from './Component/15-Pure-Component/ReactPureComponent';
+import SimpleComponent from './Component/15-Pure-Component/SimpleComponent';
+import LearnUseMemo from './Component/17-Hooks/LearnUseMemo';
+
 
 function App() {
   return (
     <div className='App'>
-      <h1>This is Bootstrap</h1>
       {/* <Greet /> */}
 
       {/* <ClassComponent /> */}
@@ -48,9 +51,9 @@ function App() {
 
       {/* <ClassProps name='Akash'/> */}
 
-      {/* <State />
+      {/* <State /> */}
 
-      <Counter /> */}
+      {/* <Counter /> */}
 
       {/* <Destructuring name='Akash' sname='Karle'>
       <p>This is Children</p>
@@ -74,7 +77,7 @@ function App() {
 
       {/* <FragmentDemo /> */}
 
-      {/* <PureComponents /> */}
+      
 
       {/* <Constructor /> */}
 
@@ -94,7 +97,12 @@ function App() {
 
       {/* <AllCollapseExample /> */}
 
-      <TableRendering />
+      {/* <TableRendering /> */}
+
+      {/* <ReactPureComponents />
+      <SimpleComponent /> */}
+
+      <LearnUseMemo />
     </div>
   );
 }

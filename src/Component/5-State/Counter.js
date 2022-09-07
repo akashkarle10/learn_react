@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Button from 'react-bootstrap/Button';
 class Counter extends Component {
     constructor(props) {
       super(props)
@@ -18,17 +18,12 @@ class Counter extends Component {
         }))
     }
 
-    incrementFive(){
-        this.increment()
-        // this.increment()
-        
-    }
     
   render() {
     return (
       <div>
         <div>Count : {this.state.count}</div>
-        <button onClick={()=>this.incrementFive()}>Increment</button>
+        <Button onClick={()=>this.increment()} variant="outline-dark">Increment</Button>
       </div>
     )
   }
